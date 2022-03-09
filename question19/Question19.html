@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<h2 class>International Seminar Form</h2>
+
+</head>
+
+<form action="/action_page.php" align="left">
+<table>
+  <tr><td><b><i>I would like to register for conference participation of the 2nd INAFOR 2019, which will be held on August 27 – 28, 2019.</b></i></td></tr>
+  <tr>
+		   <td><label for="country">Title : </label>   
+		
+		     <select id="occu" name="occupation" class="form-control">
+					<option value="select" Selected></option>
+                 <option value="mr">Mr.</option>
+				 <option value="mrs">Mrs.</option>
+				 <option value="ms">Ms.</option>
+				 </td></table>
+		 <table> <td>First Name:</td>
+		  <td><input type="text" name="first_name" values="Enter First Name"size="30"></td>
+  <tr>
+		  <td>Middle Name:</td>
+		  <td><input type="text" name="second_name" size="30"></td>
+  </tr>
+  <tr>
+		  <td>
+		  Last Name:</td>
+		  <td><input type="text" name="last_name" size="30"></td>
+  </tr>
+  </table>
+		  <br><br><br>
+ 
+ <table>
+  <tr>
+  <td> Address:</td>
+  <td><input type="text" name="address" size="100"></td>
+  </tr>
+  <td> Country:</td>
+  <td><input type="text" name="Country" size="30"></td>
+  <tr>
+  <td>Pin Code:</td>
+  <td><input type="text" pattern="[0-9]{6}" title="Six digit pin code" /></td>
+  </tr>
+  <table>
+  <br><br><br>
+  <table>
+  <tr>
+  <td>Professinal/Organisation</td><td><input type="text" name="pro" size="30"></td>
+  <td>Department</td><td><input type="text" name="depart" size="30"></td>
+  <td><label for="hot">Hotels Preferences: </label> </td>   
+		
+		 <td><select id="hot" name="hotels" class="form-control">
+					<option value="select" Selected></option>
+                 <option value="A">Hotel A</option>
+				 <option value="B">Hotel B</option>
+				 <option value="C">Hotel C</option>
+					<option value="D">Hotel C</option>
+					<option value="E">Hotel E</option></td>
+	
+  
+  <td><label for="hot">Payment Mode </label> </td>
+  <td><select id="pay" name="paymentmode" class="form-control">
+					<option value="select" Selected></option>
+                 <option value="A">Debit Card</option>
+				 <option value="B">Credit Card</option>
+				 <option value="C">Net Banking</option>
+					<option value="D">Demand Draft</option></td>
+  </table>
+  		
+  
+<br><br><br>					
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #f8f9fa!important;
+    font-style: oblique!important;
+    font-size: 21px!important;
+    font-family: sans-serif!important;
+}
+a:hover { 
+    background-color: #496577!important;
+    
+  }

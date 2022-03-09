@@ -1,0 +1,88 @@
+<html>
+<head><title>Question12</title>
+
+
+</head>
+<body bgcolor = "#59C896">
+
+<pre><h1><b><u>CSS:</u></b></h1>
+<h4><p>Cascading Style Sheets, fondly referred to as CSS,<br> is a simple design language intended to simplify the process of making web pages presentable.<br>
+
+CSS handles the look and feel part of a web page.<br> Using CSS, you can control the color of the text,<br> the style of fonts, the spacing between paragraphs, how columns are sized and laid out,<br> what background images or colors are used, layout designs,<br>variations in display for different devices and screen sizes as well as a variety of other effects.<br>
+
+CSS is easy to learn and understand but it <br> provides powerful control over the presentation of an HTML document.<br> Most commonly, CSS is combined with the markup languages HTML or XHTML.</p></body>
+
+</h4><br>
+
+<b><h2><u>Advantages of CSS:</u></h2></b>
+<p>
+<h3><b>CSS saves time -</h3></b>
+<b>You can write CSS once and then reuse same sheet in multiple HTML pages. You can define a style for each HTML element and apply it to as many Web pages as you want.
+</b>
+<h3><b>Pages load faster -</h3></b>
+<b> If you are using CSS, you do not need to write HTML tag attributes every time. Just write one CSS rule of a tag and apply it to all the occurrences of that tag. So less code means faster download times.</b>
+<h3><b>Easy maintenance -</h3></b>
+<b>To make a global change, simply change the style, and all elements in all the web pages will be updated automatically.</b>
+<h3><b>Superior styles to HTML -</h3></b>
+<b> CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.</b>
+<h3><b>Multiple Device Compatibility -</h3></b>
+<b>Style sheets allow content to be optimized for more than one type of device. By using the same HTML document, different versions of a website can be presented for handheld devices such as PDAs and cell phones or for printing</b>
+<h3><b>Global web standards -</h3></b>
+<b>Now HTML attributes are being deprecated and it is being recommended to use CSS. So its a good idea to start using CSS in all the HTML pages to make them compatible to future browsers.</b>
+</p>
+<p>
+<h2><u>Types of CSS (Cascading Style Sheet)</u></h2>
+<h4>Cascading Style Sheet(CSS) is used to set the style in web pages which contain HTML elements. It sets the background color, font-size, font-family, color, … etc property of elements in a web pages.
+There are three types of CSS which are given below:
+
+Inline CSS
+Internal or Embedded CSS
+External CSS</h4>
+<br>
+</p>
+<p>
+<h3>Inline CSS:</h3> Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. This kind of style is specified within an HTML tag using style attribute.
+
+<h3>Internal or Embedded CSS:</h3> This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the HTML file in the head section i.e the CSS is embedded within the HTML file.
+<h3>External CSS: </h3>External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag. This means that for each element, style can be set only once and that will be applied across web pages.
+</p>
+<p>..................................................................................................................................................................................................................................................................................................................................................................................................................</p>
+
+
+<p><H3><U>IMAGE MAPPING:</U></H2>
+The MAP tag is used to define a client-side image-map. An image-map is an image with clickable areas.
+
+The required name attribute of the map element is associated with the img's usemap attribute and creates a relationship between the image and the map.
+
+The map element contains a number of <area> elements, that defines the clickable areas in the image map.
+<h2><u>Attributes:</u></h2>
+<table border="2">
+
+<th>Attribute</th>
+<th>Value</th>
+<th>Description</th><tr><td>
+<h3>name</h3></td>
+<td>mapname</td><td>Required.Specifies the name of an iamge-map</td></tr></table>
+</p>
+<p>
+<h2><u>Different Types of Maps:</u></h4>
+<h4>Two broad categories and a combination of these two categories exist in image-mapping.<br> The way map data is stored and interpreted depends on the type of map.<br>
+<h3><u>Server-side:</u></h3> These maps are interpreted by the Web server. How server-side maps are stored depends <br>on software installed on the Web server. When a user clicks within a <br>server-side image map the browser program transfers the coordinates of the click to a program running <br>on the Web server. This program then examines the map data and determines the link.<br>
+<h3><u>Client-side maps:</u></h3> These maps are interpreted by the Web browser program - the map data is embedded in the host page.<br> The Web browser processes a users' click without interacting with the server.<br> This reduces the server load and provides better feedback to the page visitor.<br> The crucial difference here from Server-side maps is that all the link an d region <br>instruction s - the map files - are now stored directly in the HTML document.<br> Hence, the browser handles all the work locally. The problem with this is that only a few browsers currently<br> support this option. Therefore, we have . . .<br>
+<h3><u>Client-side with server-side support:</u></h3> A client-side image map with backward compatible <br>server-side support for browsers that do not recognize client-side image maps. <br>This reduces server load while providing full functionality to all page visitors.<br>
+</h4></p>
+<p>
+<h2><u>How to Define an Image Map in HTML:</u></h2>
+<h4>
+Now, you are ready to place your image map on your Web server and put a reference to it in your HTML document.
+
+<br>Open your HTML document and position your cursor where you'd like to place the image map. <br>An image map is placed in HTML as a hyperlink. Type A HREF="mapfilename.MAP" enclosed in < >,<br> where mapfilename is the name of your map file, including the location within your directory.<br>
+If the following does not work, you will need to check with your server administrator<br> for exact instruction on how to link to your image map.<br>
+You must include a reference to the actual image, with one important attribute specified - ISMAP inside the IMG tag.<br> For example, IMG SRC="imagename.GIF" ISMAP enclosed in < >.<br>
+You should also specify the height and width of your image inside the IMG tag using the HEIGHT and WIDTH attributes;<br>i.e., IMG SRC="imagename.GIF" ISMAP HEIGHT=120 WIDTH=200 enclosed in < >.<br>
+Close your link by typing /A enclosed in < >, following the end of your IMG tag.
+Save the edited HTML file.
+To test out the image map, you will need to upload everything to your Web server before you can fully test your image map. This can be done with WinFTP included in the CBA Slip software package.</h4></p>
+<h2><marquee><a href ="example12.html">Click here  for Example of image mapping</a></marquee></h2>
+
+</html>

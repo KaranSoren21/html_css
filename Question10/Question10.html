@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Customer Forms</h2>
+
+<form action="/action_page.php" align="left">
+  Customer Name:
+  <input type="text" name="customername" size="30">
+  <br><br><br>
+  Address:
+ 
+  <input type="text" name="address" size="100"><br><br>
+  <Label>Pin Code:</Label><input type="text" pattern="[0-9]{6}" title="Six digit pin code" />
+  <br><br><br>
+ Gender:
+  <input type="radio" name="gender" value="male"> Male
+  <input type="radio" name="gender" value="female"> Female
+  <input type="radio" name="gender" value="transgender">Transgender  
+  <br><br><br>
+  
+  <label for="country">Languages : </label>    
+		
+		     <select id="lang" name="language" class="form-control">
+					<option value="select" Selected>Select</option>
+                 <option value="hindi">Hindi</option>
+				 <option value="eng">English</option>
+				 <option value="gujarati">Gujarati</option>
+					<option value="marathi">Marathi</option>
+					<option value="konkani">Konkani</option>
+					<option value="bengali">Bengali</option>
+					<option value="oriya">Oriya</option>
+					<option value="kashmiri">Kashmiri</option>
+					<option  value="Assamese">Assamese</option>
+					<option value="nepali">Nepali</option>
+					<option value="konyak">Konyak</option>
+					<option value="khasiJaintia">Khasi & Jaintia</option>
+					<option value="tamil">Tamil</option>
+					<option value="malayam">Malayam</option>
+					<option value="punjab">Punjab</option>
+					<option value="telugu">Telugu</option>
+					<option value="kannad">Kannada</option>
+					<option value="other">Other Language :</option>
+					<input type="text" name="otherlang" size="30">
+				<br>
+				<br>
+				City:<input type="text" name="city" size="30">
+				
+					<br>
+					<br>
+					
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>

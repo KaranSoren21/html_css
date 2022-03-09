@@ -1,0 +1,112 @@
+<html> <head>
+
+<title>question 11 </title>
+ 
+</head>
+
+
+<body>
+<p>
+<h2><b><u>SELECT:</u></b></h2>
+<br>
+<br>
+
+<h4>HTML "SELECT" tag is used to create drop down list of options, <br>which appears when clicking on form element and allows the user to choose one of the options</h4>
+
+
+</p>
+<p>The SELECT element defines a list of selection items. Typically, this is used to display a menu.<br> 
+ The items within the menu will be defined using OPTION.<br>
+ Using its various attributes, you can allow users to select more than one item, or disable one or more options so that they cannot be selected.<br> 
+You can also disable the whole selection box, then use JavaScript to re-enable it when a certain form action is completed.
+
+</p>
+
+<table border="2" , cellpadding = "2">
+<th>Attribute name</th>
+<th>Notes</th>
+<tr><td>Disabled</td>
+<td>Disables a drop down list</td>
+</tr>
+<tr><td>Language</td>
+<td>&nbsp&nbsp</td></tr>
+<tr><td>Multiple</td>
+<td>Lets the user select more than one option in the list</td></tr>
+<tr><td>Name</td>
+<td>&nbsp &nbsp</td></tr>
+<tr><td>onChange</td>
+<td>Triggers an evnt when  the selection is changed</td></tr>
+<tr><td>onFocus</td>
+<td>Triggers an event when a select item recieves focus</td></tr>
+<tr><td>Readonly</td>
+<td>&nbsp &nbsp</td></tr>
+<tr><td>Size</td>
+<td>Specifies the size of a select item</td></tr>
+<tr><td>Tabindex</td>
+<td>Defines the order of selection when the tab key is pressed</td></tr>
+</table>
+
+<p><h3><u> Example:</u><h3></p>
+
+ <form action = "/cgi-bin/dropdown.cgi" method = "post">
+         
+         <select name = "dropdown">		
+		<option value = "select" selected>select</option>
+		<option value = "Dbms">Dbms</option>
+            <option value = "Ppl">Ppl</option>
+            <option value = "Dbms Lab">Dbms Lab</option>
+<option value = "Internet Technologies">Internet Technologies</option>
+<option value = "Theory of computations">Theory of computations</option>
+<option value = "Computer Networks">Computer Networks</option>
+         </select>
+         
+         <input type = "submit" value = "Submit" />
+      </form><br><br><br><br><br><br><br><br>
+<p><h2><b><u>TEXTAREA:</u></b></h2></p><br>
+
+
+
+
+<h4><p>The TEXTAREA tag defines a multi-line text input control.<br>
+
+A text area can hold an unlimited number of characters, <br>
+and the text renders in a fixed-width font (usually Courier).<br>
+
+The size of a text area can be specified by the cols and rows attributes,<br>
+ or even better; through CSS' height and width properties.
+
+</h4></p>
+
+
+<table border="2"  , cellpadding ="2">
+<th>Attribute</th>	<th>Value</th>	<th>Description</th>
+
+<tr><td>Autofocus</td> <td>autofocus</td> <td>Specifies that a text area should automatically get focus when the page loads</td></tr>
+<tr><td>cols</td> <td>number</td> <td>Specifies the visible width of a text area</td></tr>
+<tr><td>dirname</td> <td>textareaname.dir</td> <td>	Specifies that the text direction of the textarea will be submitted</td></tr>
+
+<tr><td>disabled</td> <td>disables</td> <td>Specifies that a text area should be disabled</td></tr>
+
+<tr><td>form</td> <td>	form_id</td> <td>Specifies one or more forms the text area belongs to </td></tr>
+<tr><td>maxlength</td> <td>number</td> <td>Specifies the maximum number of characters allowed in the text area </td></tr>
+<tr><td>name</td> <td>text</td> <td>Specifies a name for a text area </td></tr>
+<tr><td>placeholder</td> <td>text</td> <td> Specifies a short hint that describes the expected value of a text area</td></tr>
+<tr><td>readonly</td> <td>	readonly</td><td>Specifies that a text area should be read-only </td></tr>
+<tr><td>required</td> <td>	required</td><td>	Specifies that a text area is required/must be filled out </td></tr>
+<tr><td>rows</td> <td>	number</td><td>	Specifies the visible number of lines in a text area </td></tr>
+<tr><td>wrap</td> <td>hard
+soft</td><td> Specifies how the text in a text area is to be wrapped when submitted in a form</td></tr>
+</table><br>
+<br>
+<p><h3><u>Example:</u><h3></p>
+<form action = "/cgi-bin/hello_get.cgi" method = "get">
+         Fill the Detail: 
+         <br />
+         
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter your name
+         </textarea>
+         
+         <input type = "submit" value = "submit" />
+      </form>
+</body></html>

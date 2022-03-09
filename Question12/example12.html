@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body link="#00CC00" vlink="#3333CC" alink="#FF0000">
+
+<p>Click on the sun or on one of the planets to watch it closer:</p>
+
+
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="sun.htm">
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="mercur.htm">
+  <area shape="circle" coords="124,58,8" alt="Venus" href="venus.htm">
+</map>
+<p>Click on one of the planets:</p>
+<img src ="planets.gif" width="145" height="126"
+alt="Planets" usemap="#planetmap" />
+<map id ="planetmap" name="planetmap">
+<area shape="rect" coords="0,0,82,126"
+href="sun.htm" alt="Sun" />
+<area shape="circle" coords="90,58,3"
+href="mercur.htm" alt="Mercury" />
+<area shape="circle" coords="124,58,8"
+href="venus.htm" alt="Venus" />
+</map>
+
+</body>
+</html>
